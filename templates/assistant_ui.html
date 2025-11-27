@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SORT Voice Assistant</title>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+        background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+        color: white;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 38px;
+        letter-spacing: 2px;
+        margin-top: -20px;
+        margin-bottom: 50px;
+        text-shadow: 0 0 12px rgba(0, 150, 255, 0.8);
+    }
+
+    .mic-container {
+        width: 160px;
+        height: 160px;
+        background: #101010;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid rgba(0, 150, 255, 0.6);
+        cursor: pointer;
+        transition: 0.3s;
+        box-shadow: 0 0 20px rgba(0, 150, 255, 0.3);
+    }
+
+    .mic-container:hover {
+        transform: scale(1.07);
+        box-shadow: 0 0 35px rgba(0, 150, 255, 0.7);
+    }
+
+    .mic-icon {
+        font-size: 70px;
+        color: #00aaff;
+        text-shadow: 0 0 20px rgba(0, 150, 255, 0.8);
+    }
+
+    .examples {
+        margin-top: 45px;
+        opacity: 0.9;
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.9;
+    }
+
+    .examples span {
+        display: block;
+        opacity: 0.7;
+    }
+</style>
+</head>
+
+<body>
+
+<h1>SORT AI Assistant</h1>
+
+<div class="mic-container" onclick="activateAssistant()">
+    <div class="mic-icon">🎤</div>
+</div>
+
+<div class="examples">
+    <span>Try saying:</span>
+    <span>“Open YouTube”</span>
+    <span>“Search Python basics”</span>
+    <span>“Create folder Projects”</span>
+    <span>“Send mail to abc@gmail.com about leave”</span>
+</div>
+
+<script>
+    function activateAssistant() {
+        fetch("http://127.0.0.1:5000/listen", { method: "POST" })
+            .then(res => console.log("Listening triggered"))
+            .catch(err => console.log(err));
+    }
+</script>
+
+</body>
+</html>
