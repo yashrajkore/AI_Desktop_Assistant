@@ -1,6 +1,6 @@
 # 🎙️ SORT AI Voice Assistant
 
-![SORT Banner](https://user-images.githubusercontent.com/placeholder/banner.png)  
+![SortImageUI](https://github.com/user-attachments/assets/9647d240-b4df-4ee0-bb1f-f9d851040439)
 *Your Personal AI Voice Assistant, now smarter, faster, and more interactive than ever.*
 
 ---
