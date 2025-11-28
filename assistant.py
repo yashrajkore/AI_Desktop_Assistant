@@ -29,8 +29,8 @@ DESKTOP = os.path.join(os.path.expanduser("~"), "Desktop")
 
 # Email config (recommended: set environment variables EMAIL_ADDRESS and EMAIL_PASSWORD,
 # or you'll be prompted when sending the first email).
-EMAIL_ADDRESS = os.environ.get("yashdko2004@gmail.com")
-EMAIL_PASSWORD = os.environ.get("india@11")  # app password for Gmail typically
+EMAIL_ADDRESS = os.environ.get("USER_Email")
+EMAIL_PASSWORD = os.environ.get("PASSWORD")  # app password for Gmail typically
 
 # A very small local map for opening common apps (Windows example).
 # You can expand this mapping to include full paths to executables on your machine.
