@@ -1,4 +1,4 @@
-# 🎙️ SORT AI Voice Assistant
+# 🎙️ AI Assistant
 
 ![SortImageUI](https://github.com/user-attachments/assets/9647d240-b4df-4ee0-bb1f-f9d851040439)
 *Your Personal AI Voice Assistant, now smarter, faster, and more interactive than ever.*
@@ -56,4 +56,4 @@ Unlike generic assistants, SORT is **fully customizable**, runs locally on your 
 1. **Clone the repository:**
 ```bash
 git clone https://github.com/yourusername/SORT-AI-Assistant.git
-cd SORT-AI-Assistant
+cd AI_Assistant
