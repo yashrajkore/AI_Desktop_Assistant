@@ -55,5 +55,5 @@ Unlike generic assistants, SORT is **fully customizable**, runs locally on your 
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/SORT-AI-Assistant.git
+git clone https://github.com/yashrajkore/AI_Desktop_Assistant.git
 cd AI_Assistant
