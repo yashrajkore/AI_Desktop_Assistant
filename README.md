@@ -7,10 +7,10 @@
 
 ## 🚀 Overview
 
-**SORT** (Smart Omni Responsive Tool) is a **next-gen AI Voice Assistant** designed to simplify your digital life.  
+**SORT** (Smart Omni Responsive Tool) is an **AI Voice Assistant** designed to simplify your digital life.  
 With SORT, you can interact using your voice to perform daily tasks, open applications, search the web, manage files, set reminders, and even send emails — all with natural language commands.
 
-Unlike generic assistants, SORT is **fully customizable**, runs locally on your machine, and comes with a **beautiful, interactive web interface**.
+Unlike generic assistants, SORT runs locally on your machine, and comes with a **beautiful, interactive web interface**.
 
 ---
 
