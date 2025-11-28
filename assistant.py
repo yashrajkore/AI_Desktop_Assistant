@@ -346,4 +346,3 @@ if __name__ == "__main__":
 
     print("Flask UI connected. Open the HTML file in your browser.")
     main_loop()
-
